@@ -1,3 +1,93 @@
 body {
-  background: peachpuff;
+  background: peachpuff; 
+}
+
+.container {
+  display: grid;
+}
+
+.a {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 100%;
+  padding: 250px;
+  border-radius: 1%;
+  margin: 30px;
+}
+
+.b {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 100%;
+  padding: 100px;
+  border-radius: 1%;
+  margin: 30px;
+}
+
+.c {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 100%;
+  padding: 100px;
+  border-radius: 1%;
+  margin: 30px;
+}
+
+.d {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 100%;
+  padding: 100px;
+  border-radius: 1%;
+  margin: 30px;
+}
+
+.e {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 100%;
+  padding: 100px;
+  border-radius: 1%;
+  margin: 30px;
+}
+
+.f {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 100%;
+  padding: 100px;
+  border-radius: 1%;
+  margin: 30px;
+}
+
+.g {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 100%;
+  padding: 100px;
+  border-radius: 1%;
+  margin: 30px;
+}
+
+.h {
+  text-align: center;
+  border: 1px solid black;
+  max-width: 100%;
+  padding: 300px;
+  border-radius: 1%;
+  margin: 30px;
+}
+
+@media (min-width: 350){
+  .container > * {
+    padding: 25;
+    font-size: medium;
+  }
+}
+
+@media (min-width: 500){
+  .container > * {
+    padding: 75;
+    font-size:larger;
+  }
 }
